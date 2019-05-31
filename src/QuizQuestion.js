@@ -25,7 +25,7 @@ class QuizQuestion extends Component {
                   <QuizQuestionButton
                     key={index}
                     button_text={answer_option}
-                    clickHandler={this.handleClick.bind(this)}
+                    showNextQuestionHandler={this.handleClick.bind(this)}
                   />
                 );
               }
